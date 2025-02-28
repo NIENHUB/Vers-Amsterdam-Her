@@ -1,0 +1,111 @@
+@font-face {
+    font-family:'ADlaMDisplay';
+    src: url('Fonts/ADLaMDisplay-Regular.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Uchiyama';
+    src: url('Fonts/Uchiyama.otf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-color:#A2BA66 ;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding-top: 20px;
+}
+p {
+    font-family:'ADlaMDisplay';
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family:'ADlaMDisplay';
+    transition: 0,3 ease;
+    
+}
+body {
+    background-color:#D9B88F;
+    margin: 0;
+}
+
+section {
+    background-color:#A2BA66 ;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+h1,h2,h3 {
+    font-family:'Uchiyama';
+}
+
+h1 {
+    text-align: center;
+    color:#204017;
+    font-size: 40px;
+}
+
+footer {
+    background-color:#2B0900 ;
+    padding-bottom: 20px;
+}
+
+h3 {
+    color: white;
+}
+nav img {
+    margin: auto;
+    display: block;
+    padding-bottom: 0px;
+}
+nav ul {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav li {
+    margin:10px;
+}
+
+.buttons {
+    background-color:#204017;
+    border-radius: 1rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid white
+}
+
+footer img {
+    display: block;
+    margin: auto;
+}
+h2 { 
+color: white;
+}
+
+footer h3 {
+    padding-left: 20px;
+}
+footer p {
+    padding-left: 20px;
+}
+
+nav a :hover {
+color: #204017;
+text-decoration: underline;
+}
